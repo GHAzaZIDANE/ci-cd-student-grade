@@ -7,7 +7,7 @@ public class GradeServiceTest {
     void testAverage() {
         GradeService gs = new GradeService();
 
-        assertEquals(90,
+        assertEquals(80,
                 gs.calculateAverage(70,80,90));
     }
 }
